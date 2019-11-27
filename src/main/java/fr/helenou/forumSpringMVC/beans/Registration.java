@@ -11,7 +11,7 @@ import lombok.ToString;
 @Entity
 @Table(name="registration")
 @Getter @Setter @NoArgsConstructor @ToString(callSuper = true)
-public class Registration extends DbObject {
+public class Registration {
 	private String name;
 	private String number;
 	private String description;

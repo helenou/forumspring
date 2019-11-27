@@ -11,7 +11,7 @@ import lombok.ToString;
 @Entity
 @Table(name="posts")
 @Getter @Setter @NoArgsConstructor @ToString(callSuper = true)
-public class Post extends DbObject {
+public class Post {
 	
 	private int userId;
 	private String title;

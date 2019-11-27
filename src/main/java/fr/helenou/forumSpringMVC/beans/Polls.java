@@ -11,7 +11,7 @@ import lombok.ToString;
 @Entity
 @Table(name="polls")
 @Getter @Setter @NoArgsConstructor @ToString(callSuper = true)
-public class Polls extends DbObject {
+public class Polls {
 	private String name;
 	private String type;
 	private String description;

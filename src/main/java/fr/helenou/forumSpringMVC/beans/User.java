@@ -16,7 +16,7 @@ import lombok.ToString;
 @Entity
 @Table(name="user")
 @Getter @Setter @NoArgsConstructor @ToString(callSuper = true)
-public class User extends DbObject {
+public class User {
 
 	private String name;
 	private String mobile;

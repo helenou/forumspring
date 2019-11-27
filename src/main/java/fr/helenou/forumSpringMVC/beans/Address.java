@@ -14,7 +14,7 @@ import lombok.ToString;
 @Embeddable
 @Table(name="adresse")
 @Getter @Setter @NoArgsConstructor @ToString(callSuper = true)
-public class Address extends DbObject {
+public class Address {
 
 	@Column(length= 150)
 	private String adressePostale;
