@@ -40,3 +40,7 @@ out
 test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
+
+
+.sts4-cache/
+.factorypath
